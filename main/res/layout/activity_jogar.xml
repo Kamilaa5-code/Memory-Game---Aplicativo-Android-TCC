@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TabelaJogar"
+    android:background="@drawable/background_jogar">
+
+    <TableRow
+        android:id="@+id/TabelaJogadas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+        android:padding="25dp"
+        android:gravity="center"
+        android:textColor="@color/preto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jogador"
+        android:layout_weight="1"
+        android:textSize="15dp"/>
+
+    </TableRow>
+
+    <TableLayout
+        android:id="@+id/TableJogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+
+            android:padding="25dp"
+            android:gravity="left"
+            android:textColor="@color/preto"
+            android:id="@+id/turns"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_column="0" />
+
+        <Chronometer
+            android:layout_below="@id/jogador"
+            android:padding="25dp"
+            android:gravity="right"
+            android:textColor="@color/preto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:layout_weight="1"
+            android:textSize="15dp"
+            android:layout_column="16" />
+    </TableRow>
+
+</TableLayout>

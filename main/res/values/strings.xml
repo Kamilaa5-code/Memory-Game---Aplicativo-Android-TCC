@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Memory Fun</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="jogar">Jogar</string>
+    <string name="temas">Temas</string>
+    <string name="niveis">Níveis</string>
+    <string name="instrucoes">Instruções</string>
+    <string name="recorde">Recorde</string>
+    <string name="config">Configurações</string>
+    <string name="sobre">Sobre</string>
+    <string name="sair">Sair</string>
+
+    <string name="nome">Digite seu nome:</string>
+    <string name="alerta">Memory Fun</string>
+    <string name="msgFechar">Deseja encerrar o Jogo da memória?</string>
+    <string name="btNao">Não</string>
+    <string name="btSim">Sim</string>
+    <string name="btOk">Ok</string>
+
+    <string name="valida">O campo Nome é de preenchimento obrigatório!</string>
+    <string name="textosobre">Este aplicativo foi desenvolvido pela estudante Kamila Thaise de
+        Oliveira com o objetivo de conclusão do Curso Superior de Tecnologia em Análise e
+        Desenvolvimento de Sistemas da Faculdade de Tecnologia SENAI-Joinville.
+
+    </string>
+    <string name="textopart">
+        Participação especial do Designer Fabiano Debortoli
+    </string>
+    <string name="instrucao">
+        O jogo da memória é  clássico que tem por objetivo auxiliar na alfabetização e estimular o
+        raciocínio.
+        As cartas são alinhadas lado a lado e cada imagem, seguida de seu nome, se repete em
+        duas cartas.
+        Inicialmente as mesmas são posicionadas com as imagens para baixo. O jogador deve selecionar
+        duas cartas, caso as imagens da mesma sejam iguais, o sistema irá eliminá-las. Se as cartas
+        forem diferentes, o sistema irá virá-las novamente para que possam ser selecionadas outras
+        duas cartas.
+        O jogo se encerra quando todos os pares de cartas forem eliminados.
+    </string>
+</resources>

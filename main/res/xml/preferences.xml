@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <ListPreference
+        android:title="Temas"
+        android:summary="Selecione o tema que deseja jogar.         Tema atual: %S"
+        android:key="temas"
+        android:defaultValue="1"
+        android:entries="@array/listTemas"
+        android:entryValues="@array/listValuesTemas" />
+
+    <ListPreference
+        android:title="Nível"
+        android:summary="Selecione o nível que deseja jogar.        Nível atual: %S"
+        android:key="nivel"
+        android:defaultValue="1"
+        android:entries="@array/listNivel"
+        android:entryValues="@array/listValuesNivel"/>
+
+</PreferenceScreen>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="listTemas">
+        <item>Animais</item>
+        <item>Frutas</item>
+        <item>Números</item>
+    </string-array>
+
+    <string-array name="listValuesTemas">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="listNivel">
+        <item>Fácil</item>
+        <item>Médio</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string-array name="listValuesNivel">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

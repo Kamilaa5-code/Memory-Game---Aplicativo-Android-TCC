@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <Button
+        android:textColor="@color/branco"
+        android:layout_width="200dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="60dp"
+        android:text="@string/jogar"
+        android:id="@+id/jogar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/placa"
+        android:textSize="20sp"
+        android:onClick="onClick"/>
+
+    <Button
+        android:textColor="@color/branco"
+        android:layout_width="200dp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="60dp"
+        android:text="@string/instrucoes"
+        android:id="@+id/instrucoes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/placa"
+        android:textSize="20dp"
+        android:layout_below="@+id/jogar"
+        android:onClick="onClick"/>
+
+    <Button
+        android:textColor="@color/branco"
+        android:layout_width="200dp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="60dp"
+        android:text="@string/recorde"
+        android:id="@+id/recorde"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/placa"
+        android:textSize="20dp"
+        android:layout_below="@+id/instrucoes"
+        android:onClick="onClick"/>
+
+    <Button
+        android:textColor="@color/branco"
+        android:layout_width="200dp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="60dp"
+        android:text="@string/config"
+        android:id="@+id/configuraoes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/placa"
+        android:textSize="20dp"
+        android:layout_below="@+id/recorde"
+        android:onClick="onClick"/>
+
+    <Button
+        android:textColor="@color/branco"
+        android:layout_width="200dp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="60dp"
+        android:text="@string/sobre"
+        android:id="@+id/sobre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/placa"
+        android:textSize="20dp"
+        android:layout_below="@+id/configuraoes"
+        android:onClick="onClick"/>
+
+    <Button
+        android:textColor="@color/branco"
+        android:layout_width="200dp"
+        android:textIsSelectable="false"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_height="60dp"
+        android:text="@string/sair"
+        android:id="@+id/sair"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/placa"
+        android:textSize="20dp"
+        android:layout_below="@+id/sobre"
+        android:onClick="onClick"/>
+
+</android.support.percent.PercentRelativeLayout>

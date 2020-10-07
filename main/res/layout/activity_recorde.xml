@@ -1,0 +1,89 @@
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="90%"
+        app:layout_heightPercent="95%"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/madeira"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="10%"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/recorde"
+        android:id="@+id/recorde"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/branco"
+        android:layout_marginTop="35dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_widthPercent="70%"
+        android:background="@color/branco"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/recorde"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view" />
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/view"
+        android:paddingLeft="35dp"
+        android:paddingTop="15dp">
+
+        <TableLayout
+            android:id="@+id/tl1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tr1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:text="Nome"
+                    android:textColor="@color/branco"
+                    android:textSize="15dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:text="Clicks"
+                    android:textColor="@color/branco"
+                    android:textSize="15dp">
+                </TextView>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="10"
+                    android:text="Tempo"
+                    android:textColor="@color/branco"
+                    android:textSize="15dp">
+                </TextView>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+</android.support.percent.PercentRelativeLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.percent.PercentRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="90%"
+        app:layout_heightPercent="95%"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/madeira"/>
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="10%"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/sobre"
+        android:id="@+id/sobre"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/branco"
+        android:layout_marginTop="35dp" />
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="1dp"
+        app:layout_widthPercent="70%"
+        android:background="@color/branco"
+        android:layout_marginTop="25dp"
+        android:layout_below="@+id/sobre"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_below="@id/view"
+        android:layout_marginTop="25dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        app:layout_heightPercent="15%"
+        app:layout_widthPercent="50%" />
+
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:id="@+id/textoSobre"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="28%"
+        android:textColor="@color/branco"
+        android:textSize="17dp"
+        android:layout_below="@id/logo"
+        android:layout_gravity="center_vertical|right"
+        android:text="@string/textosobre"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textIsSelectable="false" />
+
+
+    <com.uncopt.android.widget.text.justify.JustifiedTextView
+        android:id="@+id/textoPart"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_widthPercent="80%"
+        app:layout_heightPercent="15%"
+        android:textColor="@color/branco"
+        android:textSize="18dp"
+        android:layout_below="@id/textoSobre"
+        android:layout_gravity="center_vertical|right"
+        android:text="@string/textopart"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textIsSelectable="false" />
+
+</android.support.percent.PercentRelativeLayout>
